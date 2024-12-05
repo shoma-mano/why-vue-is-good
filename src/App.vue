@@ -4,7 +4,7 @@ import { useCount } from './useCount';
 const {count, addCount, nextCount} = useCount()
 const onClick = ()=>{
   addCount()
-  window.alert(`ボタンを押してcountが${count}になりました。もう一度押すと${nextCount}になります。`)
+  window.alert(`ボタンを押してcountが${count.value}になりました。もう一度押すと${nextCount.value}になります。`)
 }
 </script>
 
